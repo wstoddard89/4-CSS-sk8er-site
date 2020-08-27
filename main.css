@@ -1,0 +1,16 @@
+.container {
+  height: 50px;
+  width: 50px;
+  background-color: black;
+}
+
+#bgImage {
+  background-image: url("assets/bg.jpg");
+  background-size: cover;
+  background-position: 0% 0%;
+  
+}
+
+.topCard {
+  width: 30%;
+}

@@ -1,16 +1,52 @@
-.container {
-  height: 50px;
-  width: 50px;
-  background-color: black;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-#bgImage {
+html, body {
+  background: black;
   background-image: url("assets/bg.jpg");
-  background-size: cover;
-  background-position: 0% 0%;
-  
+  font-family: helvitica, arial, sans-serif;
+  min-height: 100%
 }
+.container {
+  display: flex;
+  justify-content: center;
+}
+.navButtons {
+  display: flex;
+  height: 40px;
+  width: 20%;
+  background-color: #A73634;
+  margin-left: 10px;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+.container2 {
+  display: flex;
+  justify-content: center;
+}
+.cameraImage{
+  width: 82%;
+  height: 400px;
+  box-sizing: border-box;
+  border: solid white 10px;
+  padding: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.container3 {
+  display: flex;
+ justify-content: space-evenly;
 
-.topCard {
-  width: 30%;
+}
+.pgraphs {
+
+height: 300px;
+width: 20%;
+border: solid white 10px;
 }

@@ -1,32 +1,68 @@
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 html, body {
-  background: black;
-  background-image: url("assets/bg.jpg");
-  font-family: helvitica, arial, sans-serif;
-  min-height: 100%
+    background-color: black;
+    /* background-image: url("assets/bg.jpg"); */
+    font-family: helvitica, arial, sans-serif;
+    height: 100%;
+    width: 100%;
 }
+
 .container {
-  display: flex;
-  justify-content: center;
+    display: flex;
+    background-image: url("assets/bg.jpg");
+    width: 50%;
+    margin: auto;
+    height: 100%;
+    background-size: cover;
+    justify-content: center;
+    flex-wrap: wrap;
 }
+
 .navButtons {
-  display: flex;
-  height: 40px;
-  width: 20%;
-  background-color: #A73634;
-  margin-left: 10px;
-  color: white;
-  align-items: center;
-  justify-content: center;
-  margin-top: 50px;
+    display: flex;
+    height: 20px;
+    width: 15%;
+    background-color: #A73634;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
 }
-.container2 {
+
+span {
+    font-size: 8px;
+}
+
+.cameraImage {
+    
+    width: 64%;
+    height: 130px;
+    border: solid 5px white;
+    margin-bottom: 580px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .container2 {
   display: flex;
   justify-content: center;
 }
@@ -49,4 +85,4 @@ html, body {
 height: 300px;
 width: 20%;
 border: solid white 10px;
-}
+} */ 

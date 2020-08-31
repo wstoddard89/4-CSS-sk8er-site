@@ -265,8 +265,7 @@ li {
     grid-row-gap: 8px;
     grid-column-gap: 8px;
     margin-top: 25px;
-    /* align-items: center;
-    justify-content: center; */
+    position: relative;
 }
 
 .gridImages p {
@@ -283,7 +282,7 @@ li {
     position: relative;
     color: white;
     font-weight: bolder;
-    font-size: 34px;
+    font-size: 33px;
 }
 
 
@@ -313,7 +312,7 @@ li {
     grid-area: header2;
     background-image: url("assets/sk8er-3.png");
     background-position: 10% 35%;
-    background-size: 135%;
+    background-size: 145%;
     background-repeat: no-repeat;
 }
 
@@ -329,8 +328,9 @@ li {
     justify-content: center;
     /* position: absolute; */
     color: white;
-    font-size: 34px;
+    font-size: 33px;
     font-weight: bolder;
+    
 }
 
 .steve {
@@ -465,3 +465,34 @@ textarea::placeholder {
     font-size: 12px;
 }
 
+/* weird shape */
+
+.shape {
+    display: flex;
+    position: absolute;
+    left: -194px;
+    top: 45px;
+    justify-content: center;
+  }
+.square {
+  height: 75px;
+  width: 160px;
+  background-color: #A73634;
+  padding-top: 27px;
+  padding-left: 6px;
+  color: white;
+  font-size: 17px;
+  font-weight: 600;
+  border-bottom: 3px solid rgba(191, 191, 191, 0.4);
+    background-clip: padding-box;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 37.5px 0 37.5px 25px;
+    border-color: transparent transparent transparent #A73634;
+    /* border-bottom: 3px solid rgba(191, 191, 191, 0.4);
+    background-clip: padding-box; */
+}
